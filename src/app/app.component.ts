@@ -10,7 +10,7 @@ export class AppComponent {
 
   data: any;
 
-  tasks: any;
+  tasks: any = [];
 
   fetchData(): void {
     fetch('https://todolistbackend.azurewebsites.net/api/todofunc')
